@@ -1,0 +1,17 @@
+{
+  "name": "1-todoapp",
+  "version": "1.0.0",
+  "description": "todo-playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html"
+  },
+  "author": "ans0ny",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "modern-css-reset": "^1.4.0",
+    "parcel": "^2.9.3"
+  }
+}

@@ -5,7 +5,7 @@ But, trying to do stuff from memory and looking up documentation.
 
 ## Constraints
 
-- No frameworks of any kind
+- No javascript frameworks of any kind (Some CSS styling is OK)
 - Look up stuff to familiarize with documentation
 
 ## The result
@@ -14,8 +14,9 @@ I did everything until the delete button part, which I copied from the tutorial.
 
 ## Things to add
 
-- Make it look good
-- Add some animation
-- More functionalities, like local storage
-- Getting feedback
-- Good commenting to know what I am doing
+- [] Make it look good
+- [] Add some animation
+- [] More functionalities, like local storage
+- [] Getting feedback
+- [] Good commenting to know what I am doing
+- [x] Packaging
