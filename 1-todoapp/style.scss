@@ -26,8 +26,19 @@ h1 {
 
 ul li {
     list-style: square inside;
+    margin-bottom: 1em;
 }
 
 footer {
     position: relative;
+}
+
+button {
+    margin-left: 1em;
+    border-radius: 10px;
+    border: 3px outset blue;
+    transition: background-color 1s;
+    &:hover {
+        background-color: white;
+    }
 }
