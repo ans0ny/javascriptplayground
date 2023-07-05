@@ -16,7 +16,7 @@ I did everything until the delete button part, which I copied from the tutorial.
 
 - [ ] Make it look good
 - [x] Add some animation
-- [ ] More functionalities, like local storage
+- [x] More functionalities, like local storage. 7/5 Update: I consulted MDN Docs for localStorage documentation, but ultimately asked ChatGPT to help me. [ChatGPT Link](https://chat.openai.com/share/514753e1-5bcd-4999-b39a-264b065a2de0)
 - [ ] Getting feedback
 - [ ] Good commenting to know what I am doing
 - [x] Packaging
