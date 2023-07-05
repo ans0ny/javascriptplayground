@@ -14,9 +14,10 @@ I did everything until the delete button part, which I copied from the tutorial.
 
 ## Things to add
 
-- [] Make it look good
-- [] Add some animation
-- [] More functionalities, like local storage
-- [] Getting feedback
-- [] Good commenting to know what I am doing
-- [x] Packaging
+[] Make it look good
+[x] Add some animation
+[] More functionalities, like local storage
+[] Getting feedback
+[] Good commenting to know what I am doing
+[x] Packaging
+[] Deploy on internet and persist state
