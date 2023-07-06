@@ -22,6 +22,6 @@ It is quite a simple todo app.
 - [ ] Getting feedback
 - [ ] Good commenting to know what I am doing
 - [x] Packaging
-- [ ] Deploy on internet and persist state
+- [x] Deploy on internet [Netlify](https://64a66a5f07f0ef000980f5c2--euphonious-rabanadas-9df51f.netlify.app/)
 - [ ] Edit button
 - [ ] Add dialog when deleting items (confirm option is annoying)
