@@ -8,14 +8,13 @@ const list = document.querySelector("ul");
 let todos = JSON.parse(localStorage.getItem("todos")) || [];
 
 const butAnimate = [
+    {backgroundColor: 'teal'},
     {backgroundColor: 'black'},
-    {backgroundColor: 'white'}
 ];
 
 const butTime = {
-    duration: 500,
-    iterations: 1,
-    fill: 'forwards'
+    duration: 200,
+    iterations: 1
 }
 
 function saveTodos() {
@@ -26,6 +25,7 @@ function createTodoItem(todoItem) {
     const listItem = document.createElement("li");
     const deleteButton = document.createElement("button");
     deleteButton.textContent = "Delete";
+    deleteButton.setAttribute("class", "delete-button");
 
     listItem.textContent = todoItem;
 
@@ -33,13 +33,13 @@ function createTodoItem(todoItem) {
     list.appendChild(listItem);
 
     deleteButton.addEventListener("click", () => {
-        deleteButton.animate(butAnimate, butTime)
-        .addEventListener("finish", () => {
+        //deleteButton.animate(butAnimate, butTime)
+        //.addEventListener("finish", () => {
             listItem.remove();
             // update the todos array and localStorage when a todo is deleted
             todos = todos.filter(item => item !== todoItem);
             saveTodos();
-        });
+        //});
     });
 }
 
@@ -55,7 +55,7 @@ button.addEventListener("click", (e) => {
     e.preventDefault();
     const todoItem = input.value;
 
-    button.animate(butAnimate, butTime);
+    //button.animate(butAnimate, butTime);
 
     if (todoItem !== "") {
         createTodoItem(todoItem);
@@ -72,7 +72,9 @@ button.addEventListener("click", (e) => {
 const storageDeleteBtn = document.getElementById("delete-storage")
 
 storageDeleteBtn.addEventListener("click", () => {
-    storageDeleteBtn.animate(butAnimate, butTime);
-    todos = [];
-    localStorage.clear();
+    //storageDeleteBtn.animate(butAnimate, butTime);
+    if (confirm("Are you sure about that?")) {
+        todos = [];
+        localStorage.clear();
+    };
 });
