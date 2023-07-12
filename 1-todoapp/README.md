@@ -25,3 +25,5 @@ It is quite a simple todo app.
 - [x] Deploy on internet [Netlify](https://64a66a5f07f0ef000980f5c2--euphonious-rabanadas-9df51f.netlify.app/)
 - [ ] Edit button
 - [ ] Add dialog when deleting items (confirm option is annoying)
+- [ ] An actual checkmark to finish a task
+- [ ] Drag and drop like a kanban app

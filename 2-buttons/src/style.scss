@@ -1,8 +1,22 @@
 @use 'barebones/barebones.css';
 @use 'barebones/normalize.css';
 
+:root {
+  --bg-img: url(/src/img/45degreee_fabric.webp);
+}
+
 @for $i from 1 through 10 {
     #btn-#{$i} {
-      background-color: hsl($i * 36, 100%, 50%);
+      background-color: hsl($i * 36, 100%, 60%);
     }
-  }
+}
+
+body {
+  text-align: center;
+  background-image: var(--bg-img);
+}
+
+button {
+  padding: 1rem;
+  border-radius: 10px;
+}

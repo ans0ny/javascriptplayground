@@ -542,44 +542,58 @@ template, [hidden] {
   display: none;
 }
 
+:root {
+  --bg-img: url("45degreee_fabric.30dac048.webp");
+}
+
 #btn-1 {
-  background-color: #f90;
+  background-color: #ffad33;
 }
 
 #btn-2 {
-  background-color: #cf0;
+  background-color: #d6ff33;
 }
 
 #btn-3 {
-  background-color: #3f0;
+  background-color: #5cff33;
 }
 
 #btn-4 {
-  background-color: #0f6;
+  background-color: #33ff85;
 }
 
 #btn-5 {
-  background-color: #0ff;
+  background-color: #3ff;
 }
 
 #btn-6 {
-  background-color: #06f;
+  background-color: #3385ff;
 }
 
 #btn-7 {
-  background-color: #30f;
+  background-color: #5c33ff;
 }
 
 #btn-8 {
-  background-color: #c0f;
+  background-color: #d633ff;
 }
 
 #btn-9 {
-  background-color: #f09;
+  background-color: #ff33ad;
 }
 
 #btn-10 {
-  background-color: red;
+  background-color: #f33;
+}
+
+body {
+  text-align: center;
+  background-image: var(--bg-img);
+}
+
+button {
+  border-radius: 10px;
+  padding: 1rem;
 }
 
 /*# sourceMappingURL=index.b2d9cf43.css.map */
