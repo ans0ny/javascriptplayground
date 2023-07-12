@@ -1,0 +1,8 @@
+@use 'barebones/barebones.css';
+@use 'barebones/normalize.css';
+
+@for $i from 1 through 10 {
+    #btn-#{$i} {
+      background-color: hsl($i * 36, 100%, 50%);
+    }
+  }
